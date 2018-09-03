@@ -1,0 +1,69 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorSecondary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="cardStyle">@style/CardView.Dark</item>
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyApp.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+        <item name="android:textAppearanceListItem">@style/MyText</item>
+    </style>
+
+    <style name="MyText">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="AppTheme.Dark">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorSecondary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorPrimary</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="cardStyle">@style/CardView.Dark</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>-->
+
+</resources>

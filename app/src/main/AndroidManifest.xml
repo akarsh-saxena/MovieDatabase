@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.application.akarsh.moviedatabase">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".DisplayPage"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".MovieDetails"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImageViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".SearchMovie"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".SearchTvSeries" />
+        <activity android:name=".Movies" />
+        <activity android:name=".TvSeries" />
+        <activity
+            android:name=".ActorDetails"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".DiscoverTvSeries"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".TvSeriesDetails"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TvSeasonDetails_old"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_tv_season_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+        <activity
+            android:name=".Favorites"
+            android:label="@string/title_activity_favorites"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+        <activity
+            android:name=".Favorite"
+            android:label="@string/title_activity_favorite"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+        <activity
+            android:name=".TVSeasonDetails"
+            android:label="@string/title_activity_tvseason_details"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+        <activity
+            android:name=".MovieDetail"
+            android:label="@string/title_activity_movie_detail"
+            android:theme="@style/AppTheme.Dark.NoActionBar" />
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.Dark.NoActionBar" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            `
+    </application>
+
+</manifest>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.application.akarsh.moviedatabase.Movies">
+
+    <TextView
+        android:text="Movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviesHeading"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:text="Popular "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popularTextView"
+        app:layout_constraintTop_toBottomOf="@+id/moviesHeading"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Highest Rated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highestRatedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/popularTextView"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="New Movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTextView"
+        app:layout_constraintTop_toBottomOf="@+id/highestRatedTextView"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchTextView"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/newTextView"
+        android:layout_marginTop="32dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/neomatrix"
+        android:id="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:cropToPadding="true" />
+
+</android.support.constraint.ConstraintLayout>

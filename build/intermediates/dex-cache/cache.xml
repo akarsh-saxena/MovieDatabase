@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_5af092bdd1062764629c7b9a1860ec3e4a719cc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\0ff3783c72932d4a2aac4dfe4e01573d3aa80436\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="502887af363365c9f3d1250d2c863e2acb0a9056">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_596a7de82ce272d68da669ec07f4c313813612c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\14e4b17e06059e3ce9829c7d330e4476844f5450\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a92a99efc9d75b3bcb7a70f1301fd42ae84e6274\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\b204aa83ce464a23638d5f1ac08736a9dbe1ad95\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b0fedbaea0cf685b8eba3f6c644c9341643fd88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidProjects\MovieDatabase\app\libs\android-query.0.26.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90392ad036ed66b47f5b5f79e5524cb4174be2f1">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-query.0.26.8_ceb884d1e989800f12bd91040efcef986d56fe82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\17c9615aa855a9bfa08a454c2fe4dcd255470d57\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f7dc6269f9bcdf372bdd886b4c7a5c121ea8aa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\6e63caf563388f69f070ed2788068aea26fc3080\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a784cd7755bbebbda1a0a4f241fdb141fd6a157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_3bad4ab87c4444ebbed65f39583e42bc7d8ea177\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\9a1aedf6c7f53c239737ed95d2ed53e472611cba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_320af5c63bab8844b4f704d50d0c90deaf58c48e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akarsh\.android\build-cache\29128bb9c6e5bb33e0d54b712fa5da81a85cb76f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17f2b920c2f0b1e3a3ad01cdaf454878847d27c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidProjects\MovieDatabase\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="E:\AndroidProjects\MovieDatabase\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_6ea3a333b3cbbb40749213dbe987f719dccb7e69\classes.dex" />
+    </item>
+
+</items>

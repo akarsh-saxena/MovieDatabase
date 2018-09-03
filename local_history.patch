@@ -1,0 +1,52 @@
+Index: app/src/main/java/com/application/akarsh/moviedatabase/DisplayPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/application/akarsh/moviedatabase/DisplayPage.java	(revision )
++++ app/src/main/java/com/application/akarsh/moviedatabase/DisplayPage.java	(revision )
+@@ -148,6 +148,27 @@
+         movieFetcher.execute(String.valueOf(sortOptionSelected), String.valueOf(cbSelected));
+     }
+ 
++    int total_pages;
++
++    List<MovieModel> myMovieModels = new ArrayList<>();
++    final MyAdapter myAdapter = new MyAdapter(this, myMovieModels);
++
++    public class getMovies extends AsyncTask<String, String, Integer>{
++        @Override
++        protected Integer doInBackground(String... params) {
++            
++            
++            
++            return 0;
++        }
++
++        @Override
++        protected void onPostExecute(Integer result){
++            total_pages = result;
++        }
++    }
++
++
+     public class MovieFetcher extends AsyncTask<String, String, List<MovieModel>> {
+ 
+         @Override
+@@ -193,7 +214,7 @@
+                 }
+ 
+                 int total_pages, j=1;
+-                List<MovieModel> movieModels = new ArrayList<>();
++                final List<MovieModel> movieModels = new ArrayList<>();
+ 
+                 do {
+                  //   Log.d("URL IS", "https://api.themoviedb.org/3/search/movie?api_key=dda1dd643a75fd4f2a7239a0daac9c47&query=" + String.valueOf(myName)+"&page="+j);
+@@ -308,7 +329,6 @@
+ 
+         displayPageProgress.setVisibility(ProgressBar.GONE);
+         recyclerView.setAdapter(new MyAdapter(DisplayPage.this, result));
+-        return
+         }
+         }
+ }

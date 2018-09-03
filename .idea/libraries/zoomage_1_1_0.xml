@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="zoomage-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/b2517c2c6dc989cd5dccf72860eb504f54662142/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/b2517c2c6dc989cd5dccf72860eb504f54662142/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jsibbold/zoomage/1.1.0/255cb89cf5dfbcedf666e121c7c64b55b18c3992/zoomage-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
